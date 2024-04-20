@@ -1,0 +1,126 @@
+:root {
+    --yellow-block-color: yellow;
+    --blue-block-color: rgb(87, 87, 189);
+    --hover-color1: cyan;
+    --hover-color2: darkcyan;
+}
+
+* {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.pink {
+    color: pink;
+}
+
+#greycol {
+    color: grey;
+}
+
+#redcol {
+    color: red;
+}
+
+.yellow {
+    color: yellow;
+}
+
+#greencol {
+    color: green;
+}
+
+table {
+    background-color: blueviolet;
+}
+
+.border {
+    border: 1px solid black;
+}
+
+.days>th:nth-child(even) {
+    background-color: var(--yellow-block-color);
+}
+
+.days>th:nth-child(odd) {
+    background-color: var(--blue-block-color);
+}
+
+.td1>td:nth-child(odd) {
+    background-color: var(--yellow-block-color);
+}
+
+.td3>td:nth-child(odd) {
+    background-color: var(--yellow-block-color);
+}
+
+.td5>td:nth-child(odd) {
+    background-color: var(--yellow-block-color);
+}
+
+.td1>td:nth-child(even) {
+    background-color: var(--blue-block-color);
+}
+
+.td3>td:nth-child(even) {
+    background-color: var(--blue-block-color);
+}
+
+.td5>td:nth-child(even) {
+    background-color: var(--blue-block-color);
+}
+
+.td2>td:nth-child(even) {
+    background-color: var(--yellow-block-color);
+}
+
+.td4>td:nth-child(even) {
+    background-color: var(--yellow-block-color);
+}
+
+.td6>td:nth-child(even) {
+    background-color: var(--yellow-block-color);
+}
+
+.td2>td:nth-child(odd) {
+    background-color: var(--blue-block-color);
+}
+
+.td4>td:nth-child(odd) {
+    background-color: var(--blue-block-color);
+}
+
+.td6>td:nth-child(odd) {
+    background-color: var(--blue-block-color);
+}
+
+.td1>td:hover {
+    background-color: var(--hover-color1);
+    cursor: pointer;
+}
+
+.td2>td:hover {
+    background-color: var(--hover-color2);
+    cursor: pointer;
+}
+
+.td3>td:hover {
+    background-color: var(--hover-color1);
+    cursor: pointer;
+}
+
+.td4>td:hover {
+    background-color: var(--hover-color2);
+    cursor: pointer;
+}
+
+.td5>td:hover {
+    background-color: var(--hover-color1);
+    cursor: pointer;
+}
+
+.td6>td:hover {
+    background-color: var(--hover-color2);
+    cursor: pointer;
+}
