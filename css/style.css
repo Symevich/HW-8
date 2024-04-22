@@ -11,24 +11,24 @@
     font-style: normal;
 }
 
-.pink {
+div > h3:first-child {
     color: pink;
 }
 
-#greycol {
-    color: grey;
+div > div > p {
+    color: red;
 }
 
-#redcol {
-    color: red;
+h3 + p {
+    color: green;
 }
 
 .yellow {
     color: yellow;
 }
 
-#greencol {
-    color: green;
+#greycol {
+    color: grey;
 }
 
 table {
